@@ -1,0 +1,85 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 26/04/2017 18:46
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-home:before { content: "\f100"; }
+.flaticon-contact:before { content: "\f101"; }
+.flaticon-email:before { content: "\f102"; }
+.flaticon-at:before { content: "\f103"; }
+.flaticon-animals-2:before { content: "\f104"; }
+.flaticon-animals-1:before { content: "\f105"; }
+.flaticon-animals:before { content: "\f106"; }
+.flaticon-bat:before { content: "\f107"; }
+.flaticon-lines-menu:before { content: "\f108"; }
+.flaticon-menu:before { content: "\f109"; }
+.flaticon-dog-1:before { content: "\f10a"; }
+.flaticon-dog:before { content: "\f10b"; }
+.flaticon-instagram-social-outlined-logo:before { content: "\f10c"; }
+.flaticon-facebook:before { content: "\f10d"; }
+.flaticon-glass:before { content: "\f10e"; }
+.flaticon-small-notepad-and-pencil-outlines:before { content: "\f10f"; }
+.flaticon-rock:before { content: "\f110"; }
+.flaticon-karaoke:before { content: "\f111"; }
+.flaticon-multiple-users-silhouette:before { content: "\f112"; }
+.flaticon-technology:before { content: "\f113"; }
+.flaticon-photo-camera:before { content: "\f114"; }
+.flaticon-beer:before { content: "\f115"; }
+.flaticon-electric-guitar:before { content: "\f116"; }
+    
+    $font-Flaticon-home: "\f100";
+    $font-Flaticon-contact: "\f101";
+    $font-Flaticon-email: "\f102";
+    $font-Flaticon-at: "\f103";
+    $font-Flaticon-animals-2: "\f104";
+    $font-Flaticon-animals-1: "\f105";
+    $font-Flaticon-animals: "\f106";
+    $font-Flaticon-bat: "\f107";
+    $font-Flaticon-lines-menu: "\f108";
+    $font-Flaticon-menu: "\f109";
+    $font-Flaticon-dog-1: "\f10a";
+    $font-Flaticon-dog: "\f10b";
+    $font-Flaticon-instagram-social-outlined-logo: "\f10c";
+    $font-Flaticon-facebook: "\f10d";
+    $font-Flaticon-glass: "\f10e";
+    $font-Flaticon-small-notepad-and-pencil-outlines: "\f10f";
+    $font-Flaticon-rock: "\f110";
+    $font-Flaticon-karaoke: "\f111";
+    $font-Flaticon-multiple-users-silhouette: "\f112";
+    $font-Flaticon-technology: "\f113";
+    $font-Flaticon-photo-camera: "\f114";
+    $font-Flaticon-beer: "\f115";
+    $font-Flaticon-electric-guitar: "\f116";

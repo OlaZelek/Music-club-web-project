@@ -1,0 +1,1 @@
+Twój e-mail został wysłany.
