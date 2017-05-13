@@ -29,11 +29,16 @@ body{
 		    display: block;
 		    list-style-type: none;
 		    margin-bottom: 10px;
+		    	&:hover{
+		    		span.menu_des{
+		    			display: inline-block;
+		    		}
+		    	}
 		}
 }
 
-//descriptions to icons menu
-.menu_des{
+//descriptions to menu icons
+span.menu_des{
 	display: none;
 	font-size: 26px;
 	color: white;
@@ -110,7 +115,7 @@ body{
 		}
 }
 
-//style dla ikon menu
+//style for menu icons
 i[class*="flaticon"]:before{
 	color: white;
 	font-size: 270%;  

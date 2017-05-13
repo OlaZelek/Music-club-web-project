@@ -22,21 +22,14 @@
 
         <ul class="navigation">
             <!-- Icons from www.flaticon.com: -->
-            <li><a href="#header" class="icon_link"><i class="flaticon-animals-1"></i></a><a href="#header"
-            class="menu_des">Home</a>
-            </li>
-            <li><a href="#about" class="icon_link"><i class="flaticon-rock"></i></a><a href="#about" class="menu_des">O nas</a></li>
-            <li><a href="#concerts" class="icon_link"><i class="flaticon-electric-guitar"></i></a><a href="#concerts" class="menu_des">Koncerty</a>
-            </li>
-            <li><a href="#come_and_play" class="icon_link"><i class="flaticon-karaoke"></i></a><a href="#come_and_play" class="menu_des">Zagrasz?</a>
-            </li>
-            <li><a href="#drinks" class="icon_link"><i class="flaticon-glass"></i></a><a href="#drinks"
-            class="menu_des">Menu</a></li>
-            <li><a href="#photo-gallery" class="icon_link"><i class="flaticon-photo-camera"></i></a><a
-            href="#photo-gallery" class="menu_des">Galeria</a></li>
-            <li><a href="#offer" class="icon_link"><i class="flaticon-small-notepad-and-pencil-outlines"></i></a><a href="#offer" class="menu_des">Oferta</a></li>
-            <li><a href="#footer" class="icon_link"><i class="flaticon-technology"></i></a><a href="#footer" class="menu_des">Kontakt</a>
-            </li>
+            <li><a href="#header" class="icon_link"><i class="flaticon-animals-1"></i></a><span class="menu_des">Home</span></li>
+            <li><a href="#about" class="icon_link"><i class="flaticon-rock"></i></a><span class="menu_des">O nas</span></li>
+            <li><a href="#concerts" class="icon_link"><i class="flaticon-electric-guitar"></i></a><span class="menu_des">Koncerty</span></li>
+            <li><a href="#come_and_play" class="icon_link"><i class="flaticon-karaoke"></i></a><span class="menu_des">Zagrasz?</span></li>
+            <li><a href="#drinks" class="icon_link"><i class="flaticon-glass"></i></a><span class="menu_des">Menu</span></li>
+            <li><a href="#photo-gallery" class="icon_link"><i class="flaticon-photo-camera"></i></a><span class="menu_des">Galeria</span></li>
+            <li><a href="#offer" class="icon_link"><i class="flaticon-small-notepad-and-pencil-outlines"></i></a><span class="menu_des">Oferta</span></li>
+            <li><a href="#footer" class="icon_link"><i class="flaticon-technology"></i></a><span class="menu_des">Kontakt</span></li>
         </ul>
 
     </nav>

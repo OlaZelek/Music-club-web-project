@@ -1,18 +1,5 @@
 $(document).ready(function(){
 
-	//main menu - icons
-	var $icon_link = $(".icon_link");
-	var $menu_des = $(".menu_des"); 
-
-	$icon_link.on("mouseover", function(){
-		$(this).next().fadeIn(300);
-	});
-
-	$icon_link.on("mouseleave", function(){
-		$menu_des.fadeOut(300);
-	});
-
-
 	var $main_navigation_a = $(".navigation").find("a");
 
 	$main_navigation_a.click(function(e) {
@@ -26,7 +13,6 @@ $(document).ready(function(){
 
 	//mobile menu
 	var $mobile_menu_icon = $(".mobile_menu_icon");
-	console.log($mobile_menu_icon);
 	var $mobile_menu = $("#mobile_menu");
 	var $close_icon = $(".icon-cancel");
 
@@ -62,7 +48,6 @@ $(document).ready(function(){
 
 	//about section
 	var $about = $(".about-description");
-	console.log($about);
 
 	var timeout = setTimeout(function () {
 		$about.fadeIn();
@@ -71,7 +56,6 @@ $(document).ready(function(){
 
 	//drinks menu - drop down list
 	var $drop_list = $(".drop_list").find("a");
-	console.log($drop_list);
 
 	var $drinks_ul = $(".whiskey_ul");
 	$drinks_ul.hide();
@@ -106,7 +90,6 @@ $(document).ready(function(){
 				scrollTop: $('#concerts').offset().top
 			}, 500);
 
-			//$next_concerts.text('Więcej');
 			$next_concerts.text('Wcześniejsze');
 		} else {
 			var $nextConcerts = $('.concert_item:visible:last').nextAll(':lt(3)');
@@ -186,8 +169,3 @@ $(document).ready(function(){
 });
 
 
-//prettyPhoto slider
-
-// j(function(){
-// 	j("a[rel^='prettyPhoto[gallery]']").prettyPhoto();
-// });

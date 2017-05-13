@@ -2,6 +2,9 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <title>Whiskey Cave - Live Music Hard Rock & Blues Club</title>
+    <meta name="description" content="Whiskey Cave - Live Music Hard Rock & Blues Club - wyjątkowe miejsce z muzyką na żywo"/>
+    <meta name="keywords" content="Whiskey Cave, music club, klub muzyczny, koncerty, katowice, muzyka, live music, rock, blues, metal, nightlife, gdzie na koncert, gdzie na imprezę, katowice nocą"/>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <link rel="stylesheet" href="<?=get_theme_file_uri( 'css/style.css' )?>">
     <link rel="stylesheet" href="<?=get_theme_file_uri( 'prettyPhoto/css/prettyPhoto.css' )?>">
